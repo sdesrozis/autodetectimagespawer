@@ -1,0 +1,1 @@
+from .autodetectimagespawner import AutoDetectImageSpawner
