@@ -54,7 +54,7 @@ Build the docker :
 Run the docker using mount volumes (PAM and socket), network and naming :
     
     docker run -p 8000:8000 \
-    	       -v /etc/passwd:/etc/passwd \
+               -v /etc/passwd:/etc/passwd \
 	       -v /etc/shadow:/etc/shadow \
 	       -v /var/run/docker.sock:/var/run/docker.sock \
 	       --network jupyterhub-network \
